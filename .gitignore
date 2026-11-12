@@ -1,0 +1,35 @@
+# The challenge data stays on your machine. Never commit it.
+
+# Challenge data — never commit
+data/
+example/
+*.zip
+
+# Generated evaluation outputs
+output.json
+output_dev.json
+out*.json
+benchmark_output*.json
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Python virtual environment and generated files
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.cache/
+
+# Temporary files
+scratch/
+*.log
+
+# Editor settings
+.vscode/
+
+# Local evaluation and diagnostic artifacts
+benchmarks/
+reports/
